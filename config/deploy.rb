@@ -70,8 +70,8 @@ set :puma_init_active_record, true  # Change to false when not using ActiveRecor
 #set :linked_files, "config/secrets.yml"
 ## Linked Files & Directories (Default None):
 #set :linked_files, %w{config/secrets.yml}
-#set :linked_dirs,  %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
-set :linked_dirs, %w{node_modules bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system }
+set :linked_dirs,  %w{bin node_modules log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
+#set :linked_dirs, %w{bin node_modules log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system }
 
 namespace :puma do
   desc 'Create Directories for Puma Pids and Socket'

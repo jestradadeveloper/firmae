@@ -4,13 +4,11 @@ require "capistrano/setup"
 # Include default deployment tasks
 require "capistrano/deploy"
 require 'capistrano/rails'
-require 'capistrano/yarn'
-require "capistrano/webpacker/precompile"
-require 'capistrano/bundler'
 require 'capistrano/rvm'
+require 'capistrano/yarn'
+require 'capistrano/bundler'
+
 require 'capistrano/puma'
-
-
 install_plugin Capistrano::Puma
 
 # Load the SCM plugin appropriate to your project:

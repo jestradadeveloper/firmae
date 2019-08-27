@@ -56,6 +56,7 @@ group :development do
   gem 'capistrano3-puma',   require: false
   gem 'capistrano-secrets-yml', '~> 1.1.0'
   gem 'capistrano-yarn'
+  
 end
 
 group :test do

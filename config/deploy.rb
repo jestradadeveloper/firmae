@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
 
-set :application, "my_app_name"
-set :repo_url, "git@example.com:me/my_repo.git"
+#set :application, "simplesign"
+#set :repo_url, "git@github.com:jestradadeveloper/simplesign.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
@@ -21,7 +21,7 @@ set :repo_url, "git@example.com:me/my_repo.git"
 # set :pty, true
 
 # Default value for :linked_files is []
-# append :linked_files, "config/database.yml"
+append :linked_files, "config/secrets.yml"
 
 # Default value for linked_dirs is []
 # append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"
@@ -39,9 +39,9 @@ set :repo_url, "git@example.com:me/my_repo.git"
 # set :ssh_options, verify_host_key: :secure
 server '67.205.141.118', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        '[YOUR GIT SSH ADDRESS: git@example.com:username/appname.git]'
-set :application,     '[APP_NAME]'
-set :user,            '[USER_NAME]'
+set :repo_url,        'git@github.com:jestradadeveloper/simplesign.git'
+set :application,     'simplesign'
+set :user,            'joss'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
@@ -60,17 +60,18 @@ set :ssh_options,     { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh
 set :puma_preload_app, true
 set :puma_worker_timeout, nil
 set :puma_init_active_record, true  # Change to false when not using ActiveRecord
-
+#after 'deploy:updated', 'webpacker:precompile'
 ## Defaults:
 # set :scm,           :git
 # set :branch,        :master
 # set :format,        :pretty
 # set :log_level,     :debug
 # set :keep_releases, 5
-
+#set :linked_files, "config/secrets.yml"
 ## Linked Files & Directories (Default None):
-# set :linked_files, %w{config/database.yml}
-# set :linked_dirs,  %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
+#set :linked_files, %w{config/secrets.yml}
+#set :linked_dirs,  %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
+set :linked_dirs, %w{node_modules bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system }
 
 namespace :puma do
   desc 'Create Directories for Puma Pids and Socket'
@@ -115,6 +116,7 @@ namespace :deploy do
   after  :finishing,    :compile_assets
   after  :finishing,    :cleanup
   after  :finishing,    :restart
+
 end
 
 # ps aux | grep puma    # Get puma pid

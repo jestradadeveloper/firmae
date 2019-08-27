@@ -7,6 +7,7 @@ require 'capistrano/rails'
 require 'capistrano/rvm'
 require 'capistrano/yarn'
 require 'capistrano/bundler'
+require 'capistrano/faster_assets'
 
 require 'capistrano/puma'
 install_plugin Capistrano::Puma

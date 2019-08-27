@@ -1,8 +1,16 @@
-Rake::Task["webpacker:yarn_install"].clear
+namespace :deploy do
+  namespace :assets do
+    task :install_webpack do
+      on roles(:app) do
+        within release_path do
+          with rails_env: fetch(:stage) do
+            execute :yarn, "install"
+            execute :rake , "webpacker:binstubs"
+          end
+        end
+      end
+    end
 
-namespace :webpacker do
-  desc "Skip default webpacker yarn install"
-  task :yarn_install do
-    puts "Skipping webpacker yarn install"
+    before :precompile, 'assets:install_webpack'
   end
 end

@@ -60,7 +60,7 @@ group :development do
   gem 'capistrano-secrets-yml', '~> 1.1.0'
   gem 'capistrano-yarn'
   gem 'capistrano-faster-assets', '~> 1.0'
-  
+  gem 'sqlite3'
   
 end
 

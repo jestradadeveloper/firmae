@@ -1,17 +1,18 @@
+default: &default
+  adapter: sqlite3
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+
 development:
-  adapter: postgresql
-  database: simplesigndb_dev
-  pool: 5
-  timeout: 5000
+  <<: *default
+  database: db/development.sqlite3
+
 test:
-  adapter: postgresql
-  database: simplesigndb_test
-  pool: 5
-  timeout: 5000
+  <<: *default
+  database: db/development.sqlite3
 
 production:
   adapter: postgresql
   database: simplesigndb_prod
   pool: 5
   timeout: 5000
-  

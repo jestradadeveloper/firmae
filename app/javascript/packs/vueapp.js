@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <table style="display:table; width:750px;" width="750">
         <tbody>
           <tr>
-            <td style="padding:0px;"><p style="margin:0;"><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/logo-firma-vdpl-2021.png" style="display:block;" width="180"></p></td>
+            <td style="padding:0px;"><p style="margin:0;"><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/logo-2-vdpl-2021-firma.png" style="display:block;" width="180"></p></td>
             <td>
               <p class="name" style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><strong>{{name}}</strong></p>
               <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em">{{position}}</p>
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </tr>
           <tr>
             <td colspan="4">
-              <p><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/banner-vdpl-firma-2021.png" width="710" style="width:710px;"></p>
+              <p><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/banner-2-vdpl-2021-firma.png" width="710" style="width:710px;"></p>
               <p style="color:#5d5858;margin:0;line-height: 14px;margin-bottom: 0; font-size:12px">
                 Aviso Legal: La información contenida en este mensaje es confidencial. 
                 <a href="https://villadelpalmarloreto.mx/politicas-de-privacidad" target="_blank" style="color:#5d5858; text-decoration:none !important; text-decoration-line: none !important;">
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </tr>
           <tr>
             <td colspan="4">
-              <p><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/banner-danzantebay-firma-2021.png" width="710" style="width:710px;"></p>
+              <p><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/banner-2-danzantebay-2021-firma.png" width="710" style="width:710px;"></p>
               <p style="color:#5d5858;margin:0;line-height: 14px;margin-bottom: 0; font-size:12px">
                 Aviso Legal: La información contenida en este mensaje es confidencial. 
                 <a href="https://villadelpalmarloreto.mx/politicas-de-privacidad" target="_blank" style="color:#5d5858; text-decoration:none !important; text-decoration-line: none !important;">
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </tr>
             <tr>
               <td colspan="4">
-                <p><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/banner-tpc-firma-2021.png" width="710" style="width:710px;"></p>
+                <p><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/banner-2-tpc-2021-firma.png" width="710" style="width:710px;"></p>
                 <p style="color:#5d5858;margin:0;line-height: 14px;margin-bottom: 0; font-size:12px">
                 Aviso Legal: La información contenida en este mensaje es confidencial. 
                 <a href="https://villadelpalmarloreto.mx/politicas-de-privacidad" target="_blank" style="color:#5d5858; text-decoration:none !important; text-decoration-line: none !important;">

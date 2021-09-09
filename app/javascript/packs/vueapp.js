@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <table style="display:table; width:750px;">
         <tbody>
           <tr>
-            <td style="padding:5px;"><p style="margin:0;"><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/logo-firma-danzantebay-2021.png" style="display:block;" width="180"></p></td>
+            <td style="padding:5px;"><p style="margin:0;"><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/logo-2-danzante-2021-firma.png" style="display:block;" width="180"></p></td>
             <td>
               <p class="name" style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><strong>{{name}}</strong></p>
               <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em">{{position}}</p>
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <table style="display:table; width:750px;" width="750">
           <tbody>
             <tr>
-              <td style="padding:5px;"><p style="margin:0;"><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/logo-firma-tpc-2021.png" style="display:block;" width="180"></p></td>
+              <td style="padding:5px;"><p style="margin:0;"><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/logo-2-tpc-2021-firma.png" style="display:block;" width="180"></p></td>
               <td>
                 <p class="name" style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><strong>{{name}}</strong></p>
                 <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em">{{position}}</p>

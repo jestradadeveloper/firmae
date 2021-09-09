@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <html><head>
       <!--[if !mso]><!-- -->
         <style type="text/css">
-        h1,h2,h3,h4,h5,h6,p,a,span,td,strong{font-family: Helvetica, Arial, Verdana, sans-serif !important;}
+        h1,h2,h3,h4,h5,h6,p,a,span,td,strong{font-family: Arial, Verdana, sans-serif !important;}
         </style>
       <!--<![endif]-->
       </head><body>
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <tbody>
           <tr>
             <td style="padding:0px;"><p style="margin:0;"><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/logo-2-vdpl-2021-firma.png" style="display:block;" width="180"></p></td>
-            <td>
+            <td style="font-family: Arial, sans-serif !important;">
               <p class="name" style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><strong>{{name}}</strong></p>
               <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em">{{position}}</p>
               <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em;color:#000; text-decoration:none;"><a :href="'mailto:' + email" target="_blank" style="font-family:Arial !important;margin-bottom:0; line-height:1.5em;color:#000; text-decoration:none !important; text-decoration-line: none !important;"> <strong style="text-decoration:none;font-weight:normal;"><span class="blank" style="text-decoration:none !important;">{{email}}</span></strong></a></p>
@@ -67,14 +67,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="https://villagrouploreto.s3-us-west-2.amazonaws.com/firmae/linea-vertical.png" style="float:left">
               </p>
             </td>
-            <td style="padding:5px;">
+            <td style="font-family: Helvetica, Arial, sans-serif !important;padding:5px;">
               <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em;color:#000;"><span style="color:#000;">{{number}}</span></p>
-              <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><a href="https://villadelpalmarloreto.com" style="text-decoration:none !important; text-decoration:none; padding-left:0px;color:#B29245; text-decoration:none !important; text-decoration-line: none !important;"> <strong style="text-decoration:none;font-weight:normal;"><span class="blank" style="text-decoration:none !important; text-decoration:none;">www.villadelpalmarloreto.com</span></strong></a></p>
-              <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><a href="http://www.tpcdanzantebay.com" style="text-decoration:none !important; text-decoration:none; padding-left:0px;color:#B29245; text-decoration:none !important; text-decoration-line: none !important;" > <strong style="text-decoration:none;font-weight:normal;"><span class="blank" style="text-decoration:none !important; text-decoration:none;">www.tpcdanzantebay.com</span></strong></a></p>
+              <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><a href="https://villadelpalmarloreto.com" target="_blank" style="text-decoration:none !important; text-decoration:none; padding-left:0px;color:#B29245; text-decoration:none !important; text-decoration-line: none !important;"> <strong style="text-decoration:none;font-weight:normal;"><span class="blank" style="text-decoration:none !important; text-decoration:none;">www.villadelpalmarloreto.com</span></strong></a></p>
+              <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><a href="http://www.tpcdanzantebay.com" target="_blank" style="text-decoration:none !important; text-decoration:none; padding-left:0px;color:#B29245; text-decoration:none !important; text-decoration-line: none !important;" > <strong style="text-decoration:none;font-weight:normal;"><span class="blank" style="text-decoration:none !important; text-decoration:none;">www.tpcdanzantebay.com</span></strong></a></p>
             </td>
           </tr>
           <tr>
-            <td colspan="4">
+            <td colspan="4" style="font-family: Helvetica, Arial, sans-serif !important;">
               <p><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/banner-2-vdpl-2021-firma.png" width="710" style="width:710px;"></p>
               <p style="color:#5d5858;margin:0;line-height: 14px;margin-bottom: 0; font-size:12px">
                 Aviso Legal: La información contenida en este mensaje es confidencial. 
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <tbody>
           <tr>
             <td style="padding:5px;"><p style="margin:0;"><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/logo-2-danzante-2021-firma.png" style="display:block;" width="180"></p></td>
-            <td>
+            <td style="font-family: Arial, sans-serif !important;">
               <p class="name" style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><strong>{{name}}</strong></p>
               <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em">{{position}}</p>
               <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em;color:#000; text-decoration:none;"><a :href="'mailto:' + email" target="_blank" style="font-family:Arial !important;margin-bottom:0; line-height:1.5em;color:#000; text-decoration:none !important; text-decoration-line: none !important;"> <strong style="text-decoration:none;font-weight:normal;"><span class="blank" style="text-decoration:none !important;">{{email}}</span></strong></a></p>
@@ -111,14 +111,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/linea-2-firma-danzante-2021.jpg" style="float:left">
               </p>
             </td>
-            <td style="padding:5px;">
+            <td style="padding:5px; font-family: Arial, sans-serif !important;">
               <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em;color:#000;"><span style="color:#000;">{{number}}</span></p>
               <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><a href="http://www.danzantebay.com/" target="_blank" style="padding-left:0px;color:#9B8E87; text-decoration:none !important; text-decoration-line: none !important;"> <strong style="text-decoration:none;font-weight:normal;"><span class="blank" style="text-decoration:none !important;">www.danzantebay.com</span></strong></a></p>
               <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><a href="https://villadelpalmarloreto.com" target="_blank" style="padding-left:0px;color:#9B8E87; text-decoration:none !important; text-decoration-line: none !important;" > <strong style="text-decoration:none;font-weight:normal;"><span class="blank" style="text-decoration:none !important;">www.villadelpalmarloreto.com</span></strong></a></p>
             </td>
           </tr>
           <tr>
-            <td colspan="4">
+            <td colspan="4" style="font-family: Arial, sans-serif !important;">
               <p><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/banner-2-danzantebay-2021-firma.png" width="710" style="width:710px;"></p>
               <p style="color:#5d5858;margin:0;line-height: 14px;margin-bottom: 0; font-size:12px">
                 Aviso Legal: La información contenida en este mensaje es confidencial. 
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <tbody>
             <tr>
               <td style="padding:5px;"><p style="margin:0;"><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/logo-2-tpc-2021-firma.png" style="display:block;" width="180"></p></td>
-              <td>
+              <td style="font-family: Arial, sans-serif !important;">
                 <p class="name" style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><strong>{{name}}</strong></p>
                 <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em">{{position}}</p>
                 <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em;color:#000; text-decoration:none;"><a :href="'mailto:' + email" target="_blank" style="font-family:Arial !important;margin-bottom:0; line-height:1.5em;color:#000; text-decoration:none !important; text-decoration-line: none !important;"> <strong style="text-decoration:none;font-weight:normal;"><span class="blank" style="text-decoration:none !important;">{{email}}</span></strong></a></p>
@@ -153,14 +153,14 @@ document.addEventListener('DOMContentLoaded', () => {
                   <img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/linea-firma-tpc-2021.jpg" style="float:left">
                 </p>
               </td>
-              <td style="padding:5px;">
+              <td style="font-family: Arial, sans-serif !important;padding:5px;">
                 <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em;color:#000;"><span style="color:#000;">{{number}}</span></p>
-                <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><a href="https://villadelpalmarloreto.com" style="padding-left:0px;color:#1B3B6A; text-decoration:none !important; text-decoration-line: none !important;"> <strong style="text-decoration:none;font-weight:normal;"><span class="blank" style="text-decoration:none !important;">www.villadelpalmarloreto.com</span></strong></a></p>
-                <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><a href="http://www.tpcdanzantebay.com" style="padding-left:0px;color:#1B3B6A; text-decoration:none !important; text-decoration-line: none !important;" > <strong style="text-decoration:none;font-weight:normal;"><span class="blank" style="text-decoration:none !important;">www.tpcdanzantebay.com</span></strong></a></p>
+                <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><a href="https://villadelpalmarloreto.com" target="_blank" style="padding-left:0px;color:#1B3B6A; text-decoration:none !important; text-decoration-line: none !important;"> <strong style="text-decoration:none;font-weight:normal;"><span class="blank" style="text-decoration:none !important;">www.villadelpalmarloreto.com</span></strong></a></p>
+                <p style="margin:0;font-family:Arial, sans-serif !important;margin-bottom:0; line-height:1.5em"><a href="http://www.tpcdanzantebay.com" target="_blank" style="padding-left:0px;color:#1B3B6A; text-decoration:none !important; text-decoration-line: none !important;" > <strong style="text-decoration:none;font-weight:normal;"><span class="blank" style="text-decoration:none !important;">www.tpcdanzantebay.com</span></strong></a></p>
               </td>
             </tr>
             <tr>
-              <td colspan="4">
+              <td colspan="4" style="font-family: Arial, sans-serif !important;">
                 <p><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/banner-2-tpc-2021-firma.png" width="710" style="width:710px;"></p>
                 <p style="color:#5d5858;margin:0;line-height: 14px;margin-bottom: 0; font-size:12px">
                 Aviso Legal: La información contenida en este mensaje es confidencial. 

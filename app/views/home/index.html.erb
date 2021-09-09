@@ -25,16 +25,38 @@
         </div>
     </div>
     
-    <div id="app" class="section">
-      <person-data v-bind:name="name" v-bind:email="email" v-bind:number="number" v-bind:position="position"></person-data>
+    
+<div id="app" class="section">
+      
       <hr>
-      <div class="col-12 mt-5">
-          <div class="form-group">
-            <button id="btn-copy" class="form-control btn btn-success"  v-on:click="copyFirma"> Copiar firma </button>
-          </div>
+      <div class="container">
+        <div class="row">
+                <div class="col-4 mt-5">
+                    <div class="form-group">
+                        <button id="btn-copy" class="form-control btn btn-success"  v-on:click="copyFirma"> Copiar Firma VDPL </button>
+                    </div>
+                </div>
+                <div class="col-4 mt-5">
+                    <div class="form-group">
+                        <button id="btn-copy" class="form-control btn btn-success"  v-on:click="copyFirmaDanzante"> Copiar Firma Danzante </button>
+                    </div>
+                </div>
+                <div class="col-4 mt-5">
+                    <div class="form-group">
+                        <button id="btn-copy" class="form-control btn btn-success"  v-on:click="copyFirmaTPC"> Copiar Firma TPC </button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="row">
+            <person-data v-bind:name="name" v-bind:email="email" v-bind:number="number" v-bind:position="position"></person-data>
+            </div>
         
         </div>
-    </div>
+        <hr>
+      
+      </div>
     
   </div>
 </div>

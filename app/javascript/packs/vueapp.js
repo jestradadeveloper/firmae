@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <!--<![endif]-->
       </head><body>
       <div class="row tablefirm" style="font-size:14px; font-family:Arial, sans-serif !important; margin:0 auto;" id="tablefirm" ref="tablefirm">
-      <table style="display:table; width:750px;" width="750">
+      <table style="display:table; width:750px; font-family: Arial, sans-serif;" width="750">
         <tbody>
           <tr>
             <td style="padding:0px;"><p style="margin:0;"><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/logo-2-vdpl-2021-firma.png" style="display:block;" width="180"></p></td>
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         <hr>
         <div class="row tablefirm-2" style="font-size:14px; font-family:Arial, sans-serif !important; margin:0 auto;" id="tablefirm-2" ref="tablefirm-2">
-      <table style="display:table; width:750px;">
+      <table style="display:table; width:750px;font-family: Arial, sans-serif;" width="750">
         <tbody>
           <tr>
             <td style="padding:5px;"><p style="margin:0;"><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/logo-2-danzante-2021-firma.png" style="display:block;" width="180"></p></td>
@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         <hr>
         <div class="row tablefirm-3" style="font-size:14px; font-family:Arial, sans-serif !important; margin:0 auto;" id="tablefirm-3" ref="tablefirm-3">
-        <table style="display:table; width:750px;" width="750">
+        <table style="display:table; width:750px; font-family: Arial, sans-serif;" width="750">
           <tbody>
             <tr>
               <td style="padding:5px;"><p style="margin:0;"><img src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/logo-2-tpc-2021-firma.png" style="display:block;" width="180"></p></td>

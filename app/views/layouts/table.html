@@ -1,0 +1,97 @@
+<div>
+  <div class="row">
+    <div class="col-6">
+      <div class="form-group">
+        <label for="name">Nombre:</label>
+        <input v-model="name" id="name" class="form-control" placeholder="Nombre">
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="form-group">
+        <label for="position">Cargo en la empresa:</label>
+        <input v-model="position" id="position" class="form-control" placeholder="Cargo">
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="form-group">
+        <label for="email">Correo Electrónico:</label>
+        <input v-model="email" id="email" class="form-control" placeholder="Correo">
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="form-group">
+        <label for="number">Numero de teléfono:</label>
+        <input v-model="number" id="number" class="form-control" placeholder="Telefono">
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="form-group">
+        <label for="number">Horario:</label>
+        <input v-model="time" id="time" class="form-control" placeholder="Horario">
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <html>
+  <head>
+    <!--[if !mso]><!-- -->
+    <style type="text/css">
+      h1,h2,h3,h4,h5,h6,p,a,span,td,strong {
+        font-family: Arial, Verdana, sans-serif !important;
+      }
+      .table__cell-b1{
+        border: 1px solid #1a8b21;
+        border-top: 0;
+        border-left: 0;
+      }
+      .table__cell-c1{
+        border: 1px solid #1a8b21;
+        border-top: 0;
+        border-right: 0;
+        padding-left: 12px;
+      }
+      .table__cell-b2{
+        border: 1px solid #1a8b21;
+        border-bottom: 0;
+        border-left: 0;
+      }
+      .table__cell-c2{
+        border: 1px solid #1a8b21;
+        border-bottom: 0;
+        border-right: 0;
+        padding-left: 12px;
+      }
+      p, .icon{
+        color:dimgrey;
+      }
+    </style>
+    <!--<![endif]-->
+  </head>
+  <body>
+    <div class="row tablefirm" style="font-size:14px; font-family:Arial, sans-serif !important; margin:0 auto;"
+      id="tablefirm" ref="tablefirm">
+      <table style="display:table; width:750px; font-family: Arial, sans-serif;" width="750">
+        <tbody>
+          <tr>
+            <td class="table__logo" rowspan="2" width="50">
+                <img width="150" src="https://villagrouploreto.s3.us-west-2.amazonaws.com/firmae/logo-2-vdpl-2021-firma.png" alt="">
+            </td>
+            <td class="table__cell-b1" width="20"></td>
+            <td class="table__cell-c1" width="400" height="50"><strong>{{title}} {{name}}</strong>
+            </td>
+          </tr>
+          <tr>
+            <td class="table__cell-b2" width="20"></td>
+            <td class="table__cell-c2" width="400" height="110">
+              <p><span class="icon icon-email">E :</span> {{email}}</p>
+              <p><span class="icon icon-tel">T :</span> {{tel}}</p>
+              <p><span class="icon icon-clock">C :</span>{{time}}</p>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+    <br>
+</div>
